@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Environments
+.venv/
+venv/
+env/
+
+# Data (don’t upload big raw data if you can avoid it)
+data/raw/*.csv
+data/processed/*.csv
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+
+# Reports
+reports/figures/*.png
+reports/figures/*.jpg
